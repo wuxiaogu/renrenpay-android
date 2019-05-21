@@ -1,14 +1,10 @@
-[English](https://github.com/wayu002/AlipayQRHook/blob/master/ENGLISH.md)
-
 AlipayQRHook
 ------
 
-[破解过程可以参考，支付宝的](https://www.52pojie.cn/thread-821871-1-1.html)
-[微信6.6.7的](https://www.52pojie.cn/forum.php?mod=viewthread&tid=823709&page=1#pid22661279)
+支付宝可以通过简书上面的方法去做，使用url的方式来生成付款码
 
-支付宝目前已经对每日最高生成次数做了限制（20次），所以想通过这种方法做不好的事情的小伙伴还是歇歇吧，哈哈哈
+列子：alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount=1.00&userId=2088112172418889&memo=QQ_123321
 -------
-
 
 说明
 ------
@@ -18,14 +14,10 @@ AlipayQRHook
 ------
 这是一个已学习为目的的工程，请不要擅自用于商业使用，产生的问题概不负责！！！
 
-演示
-------
-![img](https://github.com/wayu002/AlipayQRHook/blob/master/record.gif)
-
 注意
 ------
-支付宝已支持最新版本
-目前仅支持微信6.6.7版本
+支付宝10.1.22
+目前仅支持微信7.0.3版本
 
 使用
 ------
@@ -34,6 +26,6 @@ AlipayQRHook
 3. 在VirtualXPosed中安装支付宝或者微信，然后安装app-debug.apk，具体使用方法可以参考VirtualXPosed工程。
 4. 在VirtualXPosed插件管理中勾选此插件，然后重启VirtualXPosed。
 5. 打开支付宝和微信。
-6. 打开AlipayQRHook，在操作界面中输入备注信息和金额，点击生成二维码。
-7. 如果一切正常，会弹出提示，告诉二维码生成位置。
-8. 默认二维码生成路径：支付宝("/sdcard/xpcracker/Alipay")，微信("/sdcard/xpcracker/WeChat")。
+6. 打开服务器登陆管理员用户
+7. 打开应用管理，点击测试，设置金额既可以在页面中收到付款码
+8. 使用手机支付，成功后手机会有回调显示

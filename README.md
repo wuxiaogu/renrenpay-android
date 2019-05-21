@@ -4,7 +4,8 @@ AlipayQRHook
 支付宝可以通过简书上面的方法去做，使用url的方式来生成付款码
 
 列子：alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount=1.00&userId=2088112172418889&memo=QQ_123321
--------
+
+服务器开源地址：https://github.com/cxyxxx0924/renrenpay-server
 
 说明
 ------
@@ -16,7 +17,7 @@ AlipayQRHook
 
 注意
 ------
-支付宝10.1.22
+支付宝10.1.22    
 目前仅支持微信7.0.3版本
 
 使用

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_press_material">#d4d4d4</color>
+    <color name="day_actionbar_background">#0077d6</color>
+
+    <color name="user_name_label">#353E4E</color>
+    <color name="app_background_color">#F6F6F6</color>
+    <color name="edit_text_hint_color">#ffa9a9a9</color>
+
+    <!-- 常用颜色值 -->
+    <color name="white40">#40FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="le_money_yellow">#FFFACD</color>
+    <color name="gray_white">#F5F5F5</color>
+    <color name="gray_slate">#708090</color>
+    <color name="light_blue">#1E88F5</color>
+
+    <color name="main_green">#40AA53</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="main_black">#333</color>
+    <color name="main_purple">#576B95</color>
+    <color name="transparent">#00000000</color>
+    <color name="window_background">#EBEBEB</color>
+    <color name="dividing">#D8D8D8</color>
+
+    <!-- 夜间模式 -->
+    <color name="night_actionbar_background">#171718</color>
+    <color name="night_main_bg">#383c40</color>
+    <color name="night_title_text">#ced7e6</color>
+    <color name="night_text">#a4abad</color>
+
+    <!-- 日间模式 -->
+    <color name="day_main_bg">#ffffff</color>
+    <color name="day_title_text">#232323</color>
+    <color name="day_text">#808080</color>
+
+    <color name="comment_yellow">#FFFFEE</color>
+
+    <color name="link_color">#1d6a2a</color>
+
+    <color name="main_background">#ffebedf0</color>
+    <color name="list_divider_color">#DADADA</color>
+    <color name="list_item_background_normal">@color/white</color>
+    <color name="team_list_item_background_normal">#ffffff</color>
+    <color name="list_item_background_pressed">#efefef</color>
+
+    <color name="drawer_menu_item_background_normal">#e2e2e2</color>
+    <color name="drawer_menu_item_background_pressed">#ebeceb</color>
+
+    <color name="actionbar_item_background_normal">@color/transparent</color>
+    <color name="actionbar_item_background_pressed">#2e3c4a</color>
+
+    <color name="ui_dialog_divider">@color/list_divider_color</color>
+    <color name="ui_dialog_list_text">#5E5E5E</color>
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="lightest_gray">#0a000000</color>
+    <color name="bg_touch">@color/lightest_gray</color>
+
+    <color name="main_link_text_color">#ffbedfff</color>
+    <color name="timeline_clickable_text_highlighted_background">#ffbedfff</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swipe_refresh_color1">#ff00ddff</color>
+    <color name="swipe_refresh_color2">#ffffbb33</color>
+    <color name="swipe_refresh_color3">#ffff4444</color>
+    <color name="swipe_refresh_color4">#ffaa66cc</color>
+
+    <color name="project_list_item_title">#294fa1</color>
+    <color name="project_list_item_description">#515151</color>
+    <color name="project_list_item_some_info">#b6b6b6</color>
+
+    <!-- 动弹列表背景颜色 -->
+    <color name="tweet_bg">#f9f7f7</color>
+    <color name="tweet_item_bg">#ffffff</color>
+    <color name="tweet_item_border">#c2c3c8</color>
+    <color name="tweet_time_platform">#a0a3a7</color>
+
+    <color name="project_detail_item">#e2e0e0</color>
+
+    <color name="my_information_option_pressed">#18be40</color>
+
+    <!-- 反馈 -->
+    <color name="text_color_account_info">#ff5e5546</color>
+    <color name="edittext_hint_color">#ffa9a9a9</color>
+
+    <color name="bg_press">#ebebeb</color>\
+
+    <!-- 日历dialog -->
+    <color name="white">#ffffffff</color>
+    <color name="circle_background">#fff2f2f2</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="blue">#ff33cc33</color>
+    <color name="darker_blue">#ff00cc99</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_black">#7F000000</color>
+
+    <color name="spinner_background">#464646</color>
+    <color name="spinner_background_press">#6baf77</color>
+    <color name="dark_icon_color">#d9ffffff</color>
+    <color name="white_50per">#88ffffff</color>
+    <color name="white_80per">#bbffffff</color>
+    <color name="black_80per">#bb000000</color>
+    <color name="black_50per">#88000000</color>
+    <color name="black_20per">#3a000000</color>
+
+    <color name="state_blue">#29ACE2</color>
+    <color name="state_red">#e73882</color>
+    <color name="state_green">#0ae46b</color>
+    <color name="state_orange">#F5A623</color>
+
+    <color name="gray_file">#ababab</color>
+    <color name="button_blue">#04A2FE</color>
+    <color name="label_color">#505E79</color>
+    <color name="options_tip_label">#C4C4C4</color>
+    <color name="discover_icon_color">#F15E5B</color>
+    <color name="user_label_name">#8898B8</color>
+    <color name="app_background_color_blue">#353E4F</color>
+    <color name="wallet_button">#008DDF</color>
+    <color name="wallet_tab">#04A2FE</color>
+    <color name="money_color">#FF801A</color>
+    <color name="item_subtitle_name">#8D99AE</color>
+    <color name="icon_select_color">#07A3FE</color>
+
+    <color name="thumb_default">#808080</color>
+    <color name="thumb_selected">#04d75d</color>
+
+    <color name="group_label_remove">#F25F5C</color>
+    <color name="group_label_add">#04A2FE</color>
+    <color name="group_label_master">#0dc447</color>
+    <color name="group_label_nor">#848484</color>
+
+    <!-- rongyun color start -->
+    <color name="black_text_view">#575757</color>
+    <color name="group_list_black_text_view">#353535</color>
+    <color name="group_list_gray">#999999</color>
+    <color name="group_list_liner">#e4e4e4</color>
+    <color name="main_title_background">#F2F2F2</color>
+    <color name="main_register">#ffffff</color>
+    <color name="button_background">#0195ff</color>
+    <color name="de_title_bg">#0195ff</color>
+    <color name="seal_bg">#f0f0f6</color>
+
+    <color name="rc_text_color_secondary_inverse">@android:color/white</color>
+
+    <!--actionbar-->
+    <color name="de_actionbar_bg">#0195ff</color>
+    <!---->
+    <color name="de_action_color">#3498DB</color>
+    <color name="de_action_white">@android:color/white</color>
+    <color name="de_transparent">#00000000</color>
+
+    <color name="de_draft_color">#cb120f</color>
+    <color name="main_theme_color">#0195ff</color>
+
+    <color name="press">#e8e8e8</color>
+    <color name="text_line_color">#dfdfdd</color>
+    <color name="text_black_color">#333333</color>
+    <color name="text_tips_color">#666666</color>
+    <color name="mine_head_color">#cccccc</color>
+    <color name="text_color">#353535</color>
+    <color name="txt_content">#555555</color>
+    <color name="txt_origin_label">#FE7507</color>
+    <color name="txt_gray_salary">#6C6C6C</color>
+    <color name="back_light_yellow">#FFF9DC</color>
+    <color name="release_text_color">#B6C3DE</color>
+    <color name="we_chart_icon">#3CB034</color>
+
+    <!--SWITCH-->
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_solid_shadow">#33000000</color>
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+
+    <color name="txt_tab_normal_color">#8a8a8a</color>
+    <color name="txt_tab_select_color">#1296db</color>
+
+    <color name="ac_filter_string_color">#0099ff</color>
+    <color name="black_alpha_48">#30000000</color>
+    <color name="trans">#00000000</color>
+    <color name="cc">#59a9ff</color>
+    <color name="pay_icon_color">#ff6600</color>
+
+    <color name="umeng_white">#ffffff</color>
+    <color name="umeng_blue">#0086DC</color>
+    <color name="umeng_black">#000000</color>
+    <color name="umeng_background">#D4E0E5</color>
+    <color name="umeng_text_color">#575A5C</color>
+    <color name="umeng_divide">#C3C6C9</color>
+
+    <color name="main_color">#383848</color>
+    <color name="mains_color">#22222C</color>
+    <color name="card_view_color">#393948</color>
+    <color name="hint_color">#C2C2C2</color>
+    <color name="native_default_color">#57576B</color>
+    <color name="list1">#31313E</color>
+    <color name="native_color">@drawable/selector_tab_color</color>
+
+</resources>

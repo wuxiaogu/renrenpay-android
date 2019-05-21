@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="49dp"
+    android:orientation="horizontal"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/background_color">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/app_id"
+        android:textSize="12sp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#C3C3C8"/>
+
+    <TextView
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#C3C3C8"
+        android:paddingLeft="14dp"
+        android:text="@string/order_money"/>
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#C3C3C8"
+        android:paddingLeft="15dp"
+        android:text="@string/order_time"/>
+
+</LinearLayout>

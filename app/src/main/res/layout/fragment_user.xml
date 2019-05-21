@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/user_picture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/photo" />
+
+        <TextView
+            android:id="@+id/user_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/user_picture"
+            android:text="真漂亮"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/user_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_nickname"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/user_picture"
+            android:text="123@qq.com"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/log_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="登出"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <View
+        style="@style/item_thin_line"
+        android:layout_marginBottom="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="账户余额(元￥)：" />
+
+        <TextView
+            android:id="@+id/user_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="10.23" />
+
+    </LinearLayout>
+
+    <View
+        style="@style/item_thin_line"
+        android:layout_marginBottom="15dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/label_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="应用版本" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:text="1.0.0" />
+
+        <TextView
+            android:id="@+id/label_tip_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_version"
+            android:layout_marginTop="10dp"
+            android:text="屏幕长亮" />
+
+        <Switch
+            android:id="@+id/switch_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/label_tip_screen"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/label_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_tip_screen"
+            android:layout_marginTop="10dp"
+            android:text="应用" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/label_app"
+            android:layout_marginRight="10dp"
+            android:text="吊炸天" />
+
+        <TextView
+            android:id="@+id/label_app_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_app"
+            android:layout_marginTop="10dp"
+            android:text="应用ID"/>
+
+        <TextView
+            android:id="@+id/app_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/label_app_id"
+            android:layout_alignParentEnd="true"
+            android:text="12345678"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/label_app_secret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_app_id"
+            android:layout_marginTop="10dp"
+            android:text="应用密钥"/>
+
+        <TextView
+            android:id="@+id/app_secret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/label_app_secret"
+            android:layout_alignParentEnd="true"
+            android:text="a726s********"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/label_app_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_app_secret"
+            android:layout_marginTop="10dp"
+            android:text="app状态"/>
+
+        <TextView
+            android:id="@+id/app_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/label_app_status"
+            android:text="开启"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true" />
+
+        <EditText
+            android:id="@+id/test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_status"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

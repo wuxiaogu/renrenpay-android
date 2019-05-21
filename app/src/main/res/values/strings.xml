@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">人人收付</string>
+    <string name="app_id">APP ID</string>
+    <string name="app_secret">APP Secret</string>
+    <string name="label_version">应用版本</string>
+    <string name="label_user_balance">账户余额(元)</string>
+    <string name="phone_number">手机号</string>
+    <string name="edit_password">密码</string>
+    <string name="native_survey">概况</string>
+    <string name="title_tongji">统计</string>
+    <string name="title_log">日志</string>
+    <string name="order_money">收款金额</string>
+    <string name="order_time">收款时间</string>
+    <string name="clear_code">清除收款码</string>
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryDark">@color/main_color</item>
+        <item name="colorAccent">@color/native_color</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="@style/AppTheme.Base">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ClubToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+    </style>
+
+    <style name="BackgroundToolbar" parent="@android:style/Theme.Light.NoTitleBar"/>
+
+    <!-- 日间模式 -->
+    <style name="AppTheme.day" parent="@style/AppTheme.NoActionBar">
+        <item name="android:textColor">@color/main_color</item>
+        <item name="toolbarStyle">@style/ClubToolbar</item>
+        <item name="android:colorBackground">@color/main_color</item>
+        <item name="android:textColorHint">@color/hint_color</item>
+    </style>
+
+    <style name="item_thin_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/bg_press_material</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.Toolbar" parent="Theme.AppCompat.Light" />
+
+</resources>

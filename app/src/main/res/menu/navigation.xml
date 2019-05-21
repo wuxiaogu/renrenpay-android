@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/icon_survey"
+        android:title="@string/native_survey" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@mipmap/icon_tongji"
+        android:title="@string/title_tongji" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@mipmap/icon_log"
+        android:title="@string/title_log" />
+
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/label_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="应用名称：" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/label_app_name"
+            android:text="测试" />
+
+        <TextView
+            android:id="@+id/label_app_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_app_name"
+            android:text="app id：" />
+
+        <TextView
+            android:id="@+id/app_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/label_app_id"
+            android:layout_toRightOf="@id/label_app_id"
+            android:text="ux7s62j7s9z" />
+
+        <TextView
+            android:id="@+id/label_app_secret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_app_id"
+            android:text="app secret：" />
+
+        <TextView
+            android:id="@+id/app_secret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/label_app_secret"
+            android:layout_toRightOf="@id/label_app_secret"
+            android:text="asdz1234af8adskjasd" />
+
+        <wy.experiment.xposed.utils.IconTextView
+            android:id="@+id/icon_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:text="&#xe6d6;"
+            android:textColor="@color/swipe_refresh_color3"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
